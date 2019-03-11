@@ -483,14 +483,20 @@ function enableDefaultPlugins(next) {
 	console.log('Enabling default plugins');
 
 	var defaultEnabled = [
-		'nodebb-plugin-composer-default',
-		'nodebb-plugin-markdown',
+		'nodebb-plugin-composer-redactor',
 		'nodebb-plugin-mentions',
 		'nodebb-widget-essentials',
 		'nodebb-rewards-essentials',
 		'nodebb-plugin-soundpack-default',
 		'nodebb-plugin-emoji',
-		'nodebb-plugin-emoji-android',
+		"nodebb-plugin-poll",
+        "nodebb-plugin-beep",
+        "nodebb-plugin-customize",
+        "nodebb-plugin-imagemagick",
+		"nodebb-plugin-question-and-answer",
+		"nodebb-plugin-links-require-login",
+		"nodebb-plugin-reputation-rules",
+        "nodebb-plugin-checkin",
 	];
 	var customDefaults = nconf.get('defaultplugins') || nconf.get('defaultPlugins');
 

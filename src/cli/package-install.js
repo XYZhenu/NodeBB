@@ -31,7 +31,7 @@ exports.updatePackageFile = updatePackageFile;
 
 function installAll() {
 	var prod = global.env !== 'development';
-	var command = 'npm install';
+	var command = 'cnpm install';
 	try {
 		fs.accessSync(path.join(modulesPath, 'nconf/package.json'), fs.constants.R_OK);
 		var packageManager = require('nconf').get('package_manager');
