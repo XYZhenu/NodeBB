@@ -93,7 +93,6 @@
         "nodebb-plugin-customize": "^1.1.0",
         "nodebb-plugin-imagemagick": "^2.0.6",
         "nodebb-plugin-question-and-answer":"^0.4.0",
-        "nodebb-plugin-checkin":"XYZhenu/nodebb-plugin-checkin",
         "nodebb-plugin-links-require-login":"^1.0.2",
         "nodebb-plugin-recent-cards":"^1.0.8",
         "nodebb-plugin-reputation-for-posting":"^1.0.4",
