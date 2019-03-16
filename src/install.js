@@ -496,6 +496,7 @@ function enableDefaultPlugins(next) {
 		"nodebb-plugin-question-and-answer",
 		"nodebb-plugin-links-require-login",
 		"nodebb-plugin-reputation-rules",
+		"nodebb-plugin-coinsystem",
 	];
 	var customDefaults = nconf.get('defaultplugins') || nconf.get('defaultPlugins');
 

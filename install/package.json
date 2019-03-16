@@ -100,6 +100,7 @@
         "nodebb-plugin-sso-qq-fix":"^2.3.11",
         "nodebb-plugin-sso-wechat3-fixed":"IndigoDai/nodebb-plugin-sso-wechat3-fixed",
         "nodebb-rewards-essentials": "XYZhenu/nodebb-rewards-essentials",
+        "nodebb-plugin-coinsystem":"XYZhenu/nodebb-plugin-coinsystem",
         "nodebb-theme-persona": "9.1.24",
         "nodebb-widget-essentials": "4.0.14",
         "nodemailer": "^5.0.0",
