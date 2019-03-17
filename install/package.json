@@ -102,6 +102,8 @@
         "nodebb-rewards-essentials": "XYZhenu/nodebb-rewards-essentials",
         "nodebb-plugin-coinsystem":"XYZhenu/nodebb-plugin-coinsystem",
         "nodebb-theme-persona": "9.1.24",
+        "nodebb-theme-material": "^2.12.6",
+        "nodebb-theme-oxide":"^4.0.15",
         "nodebb-widget-essentials": "4.0.14",
         "nodemailer": "^5.0.0",
         "passport": "^0.4.0",
