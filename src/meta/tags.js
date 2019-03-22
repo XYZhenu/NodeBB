@@ -15,7 +15,7 @@ Tags.parse = function (req, data, meta, link, callback) {
 		tags: function (next) {
 			var defaultTags = [{
 				name: 'viewport',
-				content: 'width=device-width, initial-scale=1.0',
+				content: 'width=device-width, initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no',
 			}, {
 				name: 'content-type',
 				content: 'text/html; charset=UTF-8',
